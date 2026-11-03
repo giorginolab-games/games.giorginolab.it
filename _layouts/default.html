@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><div class="nav-wrap"><a class="brand" href="{{ '/' | relative_url }}">GiorginoLab<span> / Games</span></a><nav aria-label="Main navigation"><a href="#games">Games</a><a href="#research">Research</a><a href="#contacts">Contacts</a><a href="https://www.giorginolab.it/">GiorginoLab ↗</a></nav></div></header>
+  <main id="main">{{ content }}</main>
+  <footer><span>GiorginoLab Games</span><span>Computational biophysics · Playable experiments</span><a href="https://github.com/giorginolab-games">GitHub ↗</a></footer>
+</body>
+</html>

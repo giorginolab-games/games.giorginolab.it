@@ -1,0 +1,6 @@
+title: GiorginoLab Games
+description: Playable experiments in physics, patterns and computation.
+url: https://games.giorginolab.it
+baseurl: ""
+markdown: kramdown
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]
