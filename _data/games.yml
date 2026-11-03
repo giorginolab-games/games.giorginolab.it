@@ -3,8 +3,8 @@
   class: wave
   symbol: ψ
   description: Shape a wavepacket, let it evolve, and choose when to observe. Explore interference, tunnelling and measurement through puzzles built around quantum dynamics.
-  play: https://giorginolab-games.github.io/decoherence-game/
-  source: https://github.com/giorginolab-games/decoherence-game
+  play: https://giorginolab-games.github.io/born-rule/
+  source: https://github.com/giorginolab-games/born-rule
 - title: Galvanis
   category: Mechanics & circuits
   class: blocks
@@ -19,3 +19,10 @@
   description: Explore rotational and mirror symmetry on a hexagonal pegboard. Generate patterns, map an image, or draw by hand, then print a template to make it physical.
   play: https://giorginolab-games.github.io/mandalagen/
   source: https://github.com/giorginolab-games/mandalagen
+- title: Overshoot
+  category: Electrophysiology
+  class: overshoot
+  symbol: ⚡
+  description: Tune ion channels to reproduce a target action potential. Explore neuronal firing and cardiac rhythms, then slow time down to watch ions cross the membrane.
+  play: https://giorginolab-games.github.io/overshoot-game/
+  source: https://github.com/giorginolab-games/overshoot-game

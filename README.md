@@ -12,6 +12,8 @@ Run `bundle install`, then `bundle exec jekyll serve`. Open http://localhost:400
 
 The Pages workflow builds and deploys pushes to `main`. Set the repository's Pages source to GitHub Actions and its custom domain to `games.giorginolab.it`. Configure a DNS CNAME from `games` to `giorginolab-games.github.io`, then enable HTTPS when GitHub finishes provisioning the certificate.
 
+GitHub currently requires domain verification before accepting this custom domain.
+
 The `CNAME` file preserves the domain in the built output. Game links use their existing GitHub Pages addresses.
 
-Editorial context: https://www.giorginolab.it/ and the three public project READMEs. The research direction is presented as exploratory; no learning outcomes or publications are claimed.
+Editorial context: https://www.giorginolab.it/ and the public project READMEs. The research direction is presented as exploratory; no learning outcomes or publications are claimed.
